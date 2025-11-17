@@ -15,7 +15,7 @@ type Task = {
 };
 
 const Dashboard = () => {
-  const [selectedTask, setSelectedTask] = useState<string>("");
+  const [_selectedTask, setSelectedTask] = useState<string>("");
   const [activeProject, setActiveProject] = useState("promagic");
 
   const projects = [
